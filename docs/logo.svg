@@ -1,20 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-label="Burrow logo">
-  <rect width="256" height="256" rx="48" fill="#1f2430"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 220" width="760" height="220" role="img" aria-label="Burrow: shell and SOCKS over DNS for Linux and AIX">
+  <rect width="760" height="220" rx="40" fill="#1f2430"/>
   <!-- the DNS path: short dashes, like queries -->
-  <path d="M34 52 H222" stroke="#8b949e" stroke-width="4" stroke-linecap="round" stroke-dasharray="14 10"/>
-  <text x="128" y="42" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" fill="#8b949e">TXT · A · TXT · A</text>
-  <!-- ground -->
-  <path d="M0 160 C 50 128, 90 128, 128 150 C 166 172, 206 172, 256 150 V256 H0 Z" fill="#7a5a36"/>
-  <path d="M0 178 C 60 160, 100 160, 128 176 C 156 192, 200 192, 256 176 V256 H0 Z" fill="#5c4228"/>
-  <!-- tunnel mouth -->
-  <ellipse cx="128" cy="154" rx="58" ry="24" fill="#2a1d10"/>
-  <!-- mole peeking out -->
-  <ellipse cx="128" cy="142" rx="38" ry="30" fill="#8d7257"/>
-  <ellipse cx="128" cy="152" rx="24" ry="14" fill="#a68a6b"/>
-  <circle cx="113" cy="134" r="3.5" fill="#1f2430"/>
-  <circle cx="143" cy="134" r="3.5" fill="#1f2430"/>
-  <ellipse cx="128" cy="147" rx="8" ry="6" fill="#f0b7a4"/>
-  <path d="M100 160 l-10 8 M156 160 l10 8" stroke="#e6d3c0" stroke-width="4" stroke-linecap="round"/>
-  <!-- name -->
-  <text x="128" y="236" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="30" font-weight="bold" fill="#e6edf3">burrow</text>
+  <path d="M40 50 H720" stroke="#8b949e" stroke-width="4" stroke-linecap="round" stroke-dasharray="14 10"/>
+  <text x="380" y="38" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" fill="#8b949e">TXT · A · TXT · A · TXT · A · TXT · A</text>
+  <!-- ground, across the whole card -->
+  <path d="M0 152 C 40 124, 80 124, 120 148 C 160 172, 230 176, 320 172 C 470 166, 620 178, 760 168 V220 H0 Z" fill="#7a5a36"/>
+  <path d="M0 172 C 50 156, 90 156, 120 174 C 150 192, 260 194, 380 190 C 540 186, 660 194, 760 186 V220 H0 Z" fill="#5c4228"/>
+  <!-- tunnel mouth and the mole peeking out -->
+  <g transform="translate(-41.4 -50.2) scale(1.3)">
+    <ellipse cx="128" cy="154" rx="58" ry="24" fill="#2a1d10"/>
+    <ellipse cx="128" cy="142" rx="38" ry="30" fill="#8d7257"/>
+    <ellipse cx="128" cy="152" rx="24" ry="14" fill="#a68a6b"/>
+    <circle cx="113" cy="134" r="3.5" fill="#1f2430"/>
+    <circle cx="143" cy="134" r="3.5" fill="#1f2430"/>
+    <ellipse cx="128" cy="147" rx="8" ry="6" fill="#f0b7a4"/>
+    <path d="M100 160 l-10 8 M156 160 l10 8" stroke="#e6d3c0" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <!-- name and tagline -->
+  <text x="252" y="128" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="84" font-weight="bold" fill="#e6edf3">burrow</text>
+  <text x="256" y="158" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" letter-spacing="3" fill="#8b949e">SHELL AND SOCKS OVER DNS FOR LINUX AND AIX</text>
 </svg>

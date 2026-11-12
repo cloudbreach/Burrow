@@ -1,4 +1,4 @@
-<p align="center"><img src="docs/logo.svg" width="300" alt="Burrow"></p>
+<p align="center"><img src="docs/logo.svg" width="760" alt="Burrow"></p>
 
 ```
  ____
