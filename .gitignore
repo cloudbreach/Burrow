@@ -1,4 +1,26 @@
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+.venv/
+venv/
+
+# Burrow operational artifacts
 burrow.log
+burrow.log.*
+*.log
 loot/
+.burrow_history
+
+# Secrets and credentials
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.ovpn
+
+# Local development files
+.vscode/
+.idea/
+.DS_Store
